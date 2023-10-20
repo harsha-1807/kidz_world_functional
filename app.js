@@ -133,7 +133,7 @@ cartButton.onclick = () => {
 
   for (let index = 0; index < items.length; index++) {
     if (items[index].quantity != 0) {
-      text += "Item name: " + items[index].name + " - Quantity: " + items[index].quantity + " "
+      text += "Item name: " + items[index].name + " - Quantity: " + items[index].quantity + " " + "\n"
     }
   }
 
